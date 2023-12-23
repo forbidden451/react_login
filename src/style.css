@@ -1,0 +1,58 @@
+body{
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:0;
+}
+
+.card{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.card>h3,h2{
+    margin:10px 0px;
+}
+
+.creds{
+    margin-top:40px;
+}
+
+.card>label{
+    margin-top: 20px;
+    margin-bottom:5px;
+}
+
+.card>input{
+    width:98%;
+    border-radius: 5px;
+    font-size:20px;
+    color:grey;
+    border:1px solid grey;
+}
+
+.card>button{
+    margin-top:20px;
+    width:100%;
+    font-size:16px;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+    color:white;
+    padding: 9px 14px;
+}
+
+@media (max-width: 600px) {
+  
+    .card {
+        width: 80%;
+    }
+}
